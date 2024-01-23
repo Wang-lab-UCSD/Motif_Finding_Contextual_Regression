@@ -6,8 +6,8 @@ Sequence Data Download:
 ```
 
 Runnning the model
-if you tensorflow version is 1.x simply run the code
-if you tensorflow version is 2.x, add the following code after importanting libraries
+if your tensorflow version is 1.x simply run the code
+if your tensorflow version is 2.x, add the following code after importanting libraries
 
 ```python
 # Maintain tf 1.x behaviour under tf 2.x
