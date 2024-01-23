@@ -1,7 +1,15 @@
 # Motif Finding Contextual Regression
 Sequence Data Download:
 
-<code> !wget -r -np -nH --reject "index.html*" --cut-dirs 6 https://krishna.gs.washington.edu/content/members/vagar/Xpresso/data/datasets/pM10Kb_1KTest/</code>
+<code>!wget -r -np -nH --reject "index.html*" --cut-dirs 6 https://krishna.gs.washington.edu/content/members/vagar/Xpresso/data/datasets/pM10Kb_1KTest/</code>
+
+Runnning the model
+if you tensorflow version is 1.x simply run the code
+if you tensorflow version is 2.x, add the following code after importanting libraries
+
+<code># Maintain tf 1.x behaviour under tf 2.x
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 JASPAR Motif Data:
 
